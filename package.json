@@ -1,0 +1,19 @@
+{
+  "name": "npm-scripter",
+  "version": "0.1.0",
+  "description": "A utility for crafting npm scripts",
+  "main": "index.js",
+  "bin": {
+    "npm-scripter": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Bankester <cbankester@immense.net>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk-cli": "^1.0.1",
+    "commander": "^2.9.0",
+    "read-package-json": "^2.0.1"
+  }
+}
